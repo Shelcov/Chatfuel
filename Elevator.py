@@ -64,8 +64,6 @@ def start_run(floor_count, floor_height, elevator_speed, doors_time):
             print('Ошибка ввода ' + e.__str__())
     user_position = 1
     user_quit = False
-    # При необходимости можно при запуске также запрашивать с какого этажа будет ехать первоначально пользователь
-    # Это не было сделано, т.к. пользователь может кататься на лифте, при этом отправка выполняется не только с 1 этажа
     elevator_latency = 0
     while True:
         while not user_quit:
